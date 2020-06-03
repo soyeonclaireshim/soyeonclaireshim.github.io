@@ -21,7 +21,7 @@ GitHub로 바로 블로그 내용을 업데이트 하기 이전, 웹사이트에
 
 ### 로컬 테스트 서버 종료하기 
 
-```Ctrl+c```
+`Ctrl+c`
 
 
 ---- 
@@ -32,19 +32,22 @@ GitHub로 바로 블로그 내용을 업데이트 하기 이전, 웹사이트에
 
 #### 2. 블로그 글 업데이트 하기 
 
-```git init```
+`git init`
 Jekyll 블로그 생성했던 폴더에서 로컬 GIT 저장소를 시작
 
-```git remote add origin [리모트저장소주소]```
+`git remote add origin [리모트저장소주소]`
 명령어로 로컬 저장소와 리모트 저장소를 연결 
 
-```bash
-git add [File_tobeuploaded.md]
-//파일을 업로드 
-git commit - m [Commit Message]
-// 커밋 메시지 추가 
-git push origin master
-// github에 업로드  
-```
+`git add [File_tobeuploaded.md]`
+-> 업로드 할 파일 업데이트
+
+
+`git commit - m [Commit Message]`
+->커밋 메시지 추가 
+
+`git push origin master`
+->github에 업로드  
+
+
 Will be updated accordingly. 
 Thanks, 
